@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import { ModalPopup } from './ModalPopup';
 import { Form } from './Form';
 
+
 const Content = ({ items = [] }) => {
   const [itemById, setItemById] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
+
 
   // Handle item click and set the selected item
   const handleItemClick = (itemName) => {
@@ -25,7 +27,7 @@ const Content = ({ items = [] }) => {
               key={item.name}
               onClick={() => handleItemClick(item.name)}
             >
-              <label>
+              <label >
                 <div>
                   <h2>{item.name}</h2>
                 </div>
@@ -49,7 +51,9 @@ const Content = ({ items = [] }) => {
       )}
 
       {/* Modal Window */}
-      <ModalPopup isOpen={modalOpen} setModalOpen={setModalOpen}>
+      <ModalPopup isOpen={modalOpen} 
+                  setModalOpen={setModalOpen}
+                   >
         <Form item={itemById} />
       </ModalPopup>
     </>
