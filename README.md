@@ -12,8 +12,8 @@ test for job position №1. Frontend
 - backend :   https://www.google.com/url?q=https://disk.yandex.ru/d/ajZyQoJcGstafQ&sa=D&source=docs&ust=1742314982218843&usg=AOvVaw2spf6SozTbbcc23fg91_Rt
 
 
-![alt text](<Frame 4800.png>)
-![alt text](<Frame 4815.png>)
+![alt text](<view1.png>)
+![alt text](<view2.png>)
 # React.Vite + server
  ### to run react:
  - cd .\1_Project\front\HRstate>
