@@ -7,7 +7,7 @@ function App() {
    const API_URL = "http://127.0.0.1:3000/"
    
    // const url=`${API_URL}?term=${serchItem}`; 
-  //http://127.0.0.1:3000/?term=fer   search
+   //http://127.0.0.1:3000/?term=fer   search
   const [items, setItems] = useState([]);  
   const [serchItem, setSerchItem] = useState("")
   const [fetchError, setFetchError] = useState(null)
@@ -24,7 +24,7 @@ function App() {
      
       try {
         const response = await fetch(url)
-        
+
         if(!response.ok) throw Error("Did not received list items data")
         const listItems = await response.json()
        

@@ -20,7 +20,7 @@ export const ModalPopup = ({isOpen ,setModalOpen ,children }) => {
                        onClick={()=>{setModalOpen(false)}}>
                        <img src=".\src\assets\Vector 203 (Stroke).svg" alt="x" />
                     </button>     
-                     
+                    
                 {children}
                </div>
             </div> 
